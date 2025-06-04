@@ -29,6 +29,7 @@ body {
 }
 
 #infome img {
+  max-width: 200px;
   border-radius: 12px;
 }
 
