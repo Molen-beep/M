@@ -21,6 +21,7 @@ body {
   font-family: "arial", sans-serif;
   text-align: center;
   margin-bottom: 0px;
+  margin-inline: 20px;
 }
 
 .start {
@@ -28,6 +29,7 @@ body {
   font-size: 24px;
   font-family: "arial", sans-serif;
   text-align: center;
+  margin-inline: 50px;
   margin-top: 12px;
   margin-bottom: 12px;
 }
@@ -49,16 +51,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#infome img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 200px;
-  border-radius: 12px;
-  align-self: center;
-}
-
-#abtme {
+.heading {
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 36px;
@@ -73,18 +66,13 @@ body {
   margin: 20px auto;
 }
 
-.hobi {
-  color: black;
-  font-family: "arial", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-}
-
-#hobbies {
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  margin-left: 20px;
+#infome img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  border-radius: 12px;
+  align-self: center;
 }
 
 .bagian-kesukaan {
@@ -95,6 +83,20 @@ body {
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#hobbies {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  margin-left: 20px;
+}
+
+.hobi {
+  color: black;
+  font-family: "arial", sans-serif;
+  font-size: 24px;
+  font-style: normal;
 }
 
 .hobi-explain {
