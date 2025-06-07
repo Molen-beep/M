@@ -3,47 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>this is my first website</title>
+    <title>My first website.</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="hero">
-      <h1 id="greeting">Hello everyone</h1>
-      <p class="start">
-        this is my first website. i am learning how to make a good one. so stay
-        tune till i get better :)
-      </p>
-      <a href="#infome" class="start" id="section">More about me!</a>
-    </div>
+    <main>
+      <section class="main">
+        <h1 class="greetings" id="greetingsHead">Hello everyone</h1>
+        <p class="greetings" id="greetingsText">this is my first website</p>
+        <a href="#mainAboutMe" class="greetings" id="grab"
+          >Let's walk around!</a
+        >
+      </section>
 
-    <div id="infome">
-      <h1 class="heading">About me:</h1>
-      <p id="aboutmeText">
-        so for now ill just write about me here. but later ill put it in a
-        section and also make it interactive i think, lol.<br />
-        And btw is this how we coding a longggg text? yeah maybe it is
-      </p>
-      <img src="profile.png" alt="photo profile" />
-    </div>
-    <div id="bagian-kesukaan" class="bagian-kesukaan">
-      <h2 id="hobbies">My hobbies</h2>
-      <ul class="hobi">
-        <li class="hobi">
-          Main game
-          <p class="hobi-explain">
-            Kalo main game sih lebih suka min game game storyy, kayak God Of
-            war, Uncharted, Marvel's spiderman, apalagi Asassin's creed, beuh
+      <section class="main1" id="mainAboutMe">
+        <h1 id="AboutMe">About me:</h1>
+        <p id="AboutMeText">
+          So i just started my cording journey this month, i could say that it
+          is fun, but like im still unsure about it
+        </p>
+        <img src="profile.png" alt="Discord profile" id="AboutMeImg" />
+      </section>
+
+      <section class="main2" id="mainHobbies">
+        <div id="blank"></div>
+        <h1 id="HobbiesHeader">My hobbies:</h1>
+        <p id="HobbiesText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+          labore nostrum at quasi ipsam doloribus odio! Voluptas, aperiam
+          voluptate sequi obcaecati sint quidem, voluptatem, facere consequuntur
+          facilis itaque minus rem!
+        </p>
+
+        <div id="hobi1">
+          <h2>Main basket</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
+            reprehenderit nesciunt rem corrupti ex. Ipsa autem voluptatum ea
+            obcaecati praesentium voluptas minus non fuga nam facilis? Eaque
+            dolores distinctio autem?
           </p>
-        </li>
-        <li class="hobi">
-          Coding
-          <p class="hobi-explain">
-            Kalo coding sih yaa, baru mulai belajar minggu lalu, and i kinda
-            like it tbh. its fun especially when learning new things
+        </div>
+        <div>
+          <h2>Coding</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            commodi excepturi aliquid dignissimos soluta quia asperiores quo
+            dolore consequatur! Eaque, doloremque at nisi qui sunt aspernatur
+            maxime quod magnam. Maiores?
           </p>
-        </li>
-        <li class="hobi">Main basket</li>
-      </ul>
-    </div>
+        </div>
+        <div>
+          <h2>Main game</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, sint
+            et nulla ab aliquid itaque eos unde tempora labore. Hic rerum vel ea
+            saepe aliquam explicabo maiores odit enim minus.
+          </p>
+        </div>
+
+        <h2 id="ratingsHeader">-/10</h2>
+        <aside id="point1">10/10</aside>
+        <aside id="point2">8/10</aside>
+        <aside id="point3">8/10</aside>
+      </section>
+    </main>
   </body>
 </html>

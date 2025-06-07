@@ -1,108 +1,150 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: white;
-}
-
-.hero {
-  height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-#greeting {
-  color: #333;
+.greetings {
+  color: black;
+  font-family: "Segoe Ui", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#greetingsHead {
   font-size: 48px;
-  font-family: "arial", sans-serif;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-inline: 20px;
-}
-
-.start {
-  color: black;
-  font-size: 24px;
-  font-family: "arial", sans-serif;
-  text-align: center;
-  margin-inline: 50px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-#section {
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
   margin: 0;
 }
 
-#infome {
-  color: black;
-  font-family: "arial", sans-serif;
-  margin: 50px 40px;
-  padding: 20px;
-  background-color: #f9f9f9;
+#greetingsText {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+#grab {
+  color: white;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 6px 12px;
+  background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.heading {
-  color: black;
+.main1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  margin-top: 0px;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-areas:
+    "header img"
+    "text img";
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  justify-content: center;
+  align-content: center;
+}
+
+#AboutMe {
+  grid-area: header;
+  margin-bottom: 0;
+}
+
+#AboutMeText {
+  margin-top: 0;
+  grid-area: text;
   text-align: center;
 }
 
-#aboutmeText {
-  font-size: 18px;
-  text-align: center;
-  margin: 20px auto;
-}
-
-#infome img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#AboutMeImg {
+  grid-area: img;
   max-width: 200px;
   border-radius: 12px;
+}
+
+.main2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-areas:
+    "header ratings"
+    "Para blank"
+    "hobi1 point1"
+    "hobi2 point2"
+    "hobi3 point3";
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  justify-content: left;
+  align-content: right;
+  max-width: 33%;
+}
+
+#HobbiesHeader {
+  grid-area: header;
+  font-size: 24px;
+  text-align: start;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-inline-start: 0;
+}
+
+#HobbiesText {
+  grid-area: Para;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: 12px;
+  margin-inline: 12px;
+}
+
+#ratingsHeader {
+  grid-area: ratings;
   align-self: center;
 }
 
-.bagian-kesukaan {
-  font-family: "Courier New", Courier, monospace;
-  margin: 50px 40px;
-  padding: 20px;
-  padding-top: 10px;
-  padding-inline: 2px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+#blank {
+  grid-area: blank;
 }
 
-#hobbies {
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 36px;
-  margin-left: 20px;
+#hobi1 {
+  grid-area: hobi1;
 }
 
-.hobi {
-  color: black;
-  font-family: "arial", sans-serif;
-  font-size: 24px;
-  font-style: normal;
+#hobi2 {
+  grid-area: hobi2;
 }
 
-.hobi-explain {
-  color: black;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
-  margin: 20px auto;
+#hobi3 {
+  grid-area: hobi3;
+}
+
+#point1 {
+  grid-area: point1;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+}
+
+#point2 {
+  grid-area: point2;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+}
+
+#point3 {
+  grid-area: point3;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
 }
