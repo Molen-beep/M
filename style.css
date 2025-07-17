@@ -1,150 +1,31 @@
-.main {
+body {
+  overflow: auto;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+body button {
+  margin: 20px;
+  height: 205px;
+  border: solid 1px white;
+  border-radius: 4px;
+  color: white;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.photo {
+  max-width: 200px;
+  border: solid 1px white;
+}
+
+.gallery {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+  height: 100vh;
+  font-family: sans-serif;
 }
 
-.greetings {
-  color: black;
-  font-family: "Segoe Ui", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#greetingsHead {
-  font-size: 48px;
-  margin: 0;
-}
-
-#greetingsText {
-  font-size: 16px;
-  margin: 0;
-  margin-top: 12px;
-}
-
-#grab {
+h1 {
   color: white;
-  font-size: 16px;
-  margin: 20px auto;
-  padding: 6px 12px;
-  background-color: black;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.main1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: grid;
-  grid-gap: 20px 20px;
-  grid-template-areas:
-    "header img"
-    "text img";
-  text-align: center;
-  margin: auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  justify-content: center;
-  align-content: center;
-}
-
-#AboutMe {
-  grid-area: header;
-  margin-bottom: 0;
-}
-
-#AboutMeText {
-  margin-top: 0;
-  grid-area: text;
-  text-align: center;
-}
-
-#AboutMeImg {
-  grid-area: img;
-  max-width: 200px;
-  border-radius: 12px;
-}
-
-.main2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: grid;
-  grid-gap: 20px 20px;
-  grid-template-areas:
-    "header ratings"
-    "Para blank"
-    "hobi1 point1"
-    "hobi2 point2"
-    "hobi3 point3";
-  margin: 50px 0;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  justify-content: left;
-  align-content: right;
-  max-width: 33%;
-}
-
-#HobbiesHeader {
-  grid-area: header;
-  font-size: 24px;
-  text-align: start;
-  color: white;
-  background-color: black;
-  padding: 10px;
-  border-radius: 6px;
-  margin-inline-start: 0;
-}
-
-#HobbiesText {
-  grid-area: Para;
-  text-align: start;
-  margin-bottom: 20px;
-  margin-top: 12px;
-  margin-inline: 12px;
-}
-
-#ratingsHeader {
-  grid-area: ratings;
-  align-self: center;
-}
-
-#blank {
-  grid-area: blank;
-}
-
-#hobi1 {
-  grid-area: hobi1;
-}
-
-#hobi2 {
-  grid-area: hobi2;
-}
-
-#hobi3 {
-  grid-area: hobi3;
-}
-
-#point1 {
-  grid-area: point1;
-  font-weight: bold;
-  justify-self: center;
-  align-self: center;
-}
-
-#point2 {
-  grid-area: point2;
-  font-weight: bold;
-  justify-self: center;
-  align-self: center;
-}
-
-#point3 {
-  grid-area: point3;
-  font-weight: bold;
-  justify-self: center;
-  align-self: center;
 }

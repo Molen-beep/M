@@ -3,70 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My first website.</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <section class="main">
-        <h1 class="greetings" id="greetingsHead">Hello everyone</h1>
-        <p class="greetings" id="greetingsText">this is my first website</p>
-        <a href="#mainAboutMe" class="greetings" id="grab"
-          >Let's walk around!</a
-        >
-      </section>
+    <div class="wrapper">
+      <div class="main">
+        <div class="gallery">
+          <h1 class="text">Your <br />favorite <br />posts,</h1>
+          <button id="prev"><</button>
 
-      <section class="main1" id="mainAboutMe">
-        <h1 id="AboutMe">About me:</h1>
-        <p id="AboutMeText">
-          So i just started my cording journey this month, i could say that it
-          is fun, but like im still unsure about it
-        </p>
-        <img src="profile.png" alt="Discord profile" id="AboutMeImg" />
-      </section>
+          <div id="display">
+            <img
+              id="displayedPhoto"
+              class="photo"
+              src="sample.jpg"
+              alt="example photo"
+            />
+          </div>
 
-      <section class="main2" id="mainHobbies">
-        <div id="blank"></div>
-        <h1 id="HobbiesHeader">My hobbies:</h1>
-        <p id="HobbiesText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-          labore nostrum at quasi ipsam doloribus odio! Voluptas, aperiam
-          voluptate sequi obcaecati sint quidem, voluptatem, facere consequuntur
-          facilis itaque minus rem!
-        </p>
-
-        <div id="hobi1">
-          <h2>Main basket</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
-            reprehenderit nesciunt rem corrupti ex. Ipsa autem voluptatum ea
-            obcaecati praesentium voluptas minus non fuga nam facilis? Eaque
-            dolores distinctio autem?
-          </p>
+          <button id="next">></button>
+          <h1 class="text">
+            All <br />
+            in <br />
+            one <br />
+            place
+          </h1>
         </div>
-        <div>
-          <h2>Coding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            commodi excepturi aliquid dignissimos soluta quia asperiores quo
-            dolore consequatur! Eaque, doloremque at nisi qui sunt aspernatur
-            maxime quod magnam. Maiores?
-          </p>
-        </div>
-        <div>
-          <h2>Main game</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, sint
-            et nulla ab aliquid itaque eos unde tempora labore. Hic rerum vel ea
-            saepe aliquam explicabo maiores odit enim minus.
-          </p>
-        </div>
+      </div>
+    </div>
 
-        <h2 id="ratingsHeader">-/10</h2>
-        <aside id="point1">10/10</aside>
-        <aside id="point2">8/10</aside>
-        <aside id="point3">8/10</aside>
-      </section>
-    </main>
+    <script src="script.js"></script>
   </body>
 </html>
